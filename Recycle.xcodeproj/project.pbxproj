@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31094AC82BE2CB4200756BFE /* RewardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31094AC72BE2CB4200756BFE /* RewardView.swift */; };
+		31DCFF9F2BE2B10000538E1A /* RecycleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DCFF9E2BE2B10000538E1A /* RecycleApp.swift */; };
+		31DCFFA12BE2B10000538E1A /* RecycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DCFFA02BE2B10000538E1A /* RecycleView.swift */; };
+		31DCFFA32BE2B10400538E1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31DCFFA22BE2B10400538E1A /* Assets.xcassets */; };
+		31DCFFA62BE2B10400538E1A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31DCFFA52BE2B10400538E1A /* Preview Assets.xcassets */; };
+		31DCFFB02BE2B10400538E1A /* RecycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DCFFAF2BE2B10400538E1A /* RecycleTests.swift */; };
+		31DCFFBA2BE2B10500538E1A /* RecycleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DCFFB92BE2B10500538E1A /* RecycleUITests.swift */; };
+		31DCFFBC2BE2B10500538E1A /* RecycleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DCFFBB2BE2B10500538E1A /* RecycleUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31DCFFAC2BE2B10400538E1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31DCFF932BE2B10000538E1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31DCFF9A2BE2B10000538E1A;
+			remoteInfo = Recycle;
+		};
+		31DCFFB62BE2B10500538E1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31DCFF932BE2B10000538E1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31DCFF9A2BE2B10000538E1A;
+			remoteInfo = Recycle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31094AC72BE2CB4200756BFE /* RewardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardView.swift; sourceTree = "<group>"; };
+		31DCFF9B2BE2B10000538E1A /* Recycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31DCFF9E2BE2B10000538E1A /* RecycleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecycleApp.swift; sourceTree = "<group>"; };
+		31DCFFA02BE2B10000538E1A /* RecycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecycleView.swift; sourceTree = "<group>"; };
+		31DCFFA22BE2B10400538E1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31DCFFA52BE2B10400538E1A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		31DCFFAB2BE2B10400538E1A /* RecycleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecycleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31DCFFAF2BE2B10400538E1A /* RecycleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecycleTests.swift; sourceTree = "<group>"; };
+		31DCFFB52BE2B10500538E1A /* RecycleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecycleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31DCFFB92BE2B10500538E1A /* RecycleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecycleUITests.swift; sourceTree = "<group>"; };
+		31DCFFBB2BE2B10500538E1A /* RecycleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecycleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31DCFF982BE2B10000538E1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DCFFA82BE2B10400538E1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DCFFB22BE2B10500538E1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31DCFF922BE2B10000538E1A = {
+			isa = PBXGroup;
+			children = (
+				31DCFF9D2BE2B10000538E1A /* Recycle */,
+				31DCFFAE2BE2B10400538E1A /* RecycleTests */,
+				31DCFFB82BE2B10500538E1A /* RecycleUITests */,
+				31DCFF9C2BE2B10000538E1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31DCFF9C2BE2B10000538E1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31DCFF9B2BE2B10000538E1A /* Recycle.app */,
+				31DCFFAB2BE2B10400538E1A /* RecycleTests.xctest */,
+				31DCFFB52BE2B10500538E1A /* RecycleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31DCFF9D2BE2B10000538E1A /* Recycle */ = {
+			isa = PBXGroup;
+			children = (
+				31DCFF9E2BE2B10000538E1A /* RecycleApp.swift */,
+				31094AC72BE2CB4200756BFE /* RewardView.swift */,
+				31DCFFA02BE2B10000538E1A /* RecycleView.swift */,
+				31DCFFA22BE2B10400538E1A /* Assets.xcassets */,
+				31DCFFA42BE2B10400538E1A /* Preview Content */,
+			);
+			path = Recycle;
+			sourceTree = "<group>";
+		};
+		31DCFFA42BE2B10400538E1A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				31DCFFA52BE2B10400538E1A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		31DCFFAE2BE2B10400538E1A /* RecycleTests */ = {
+			isa = PBXGroup;
+			children = (
+				31DCFFAF2BE2B10400538E1A /* RecycleTests.swift */,
+			);
+			path = RecycleTests;
+			sourceTree = "<group>";
+		};
+		31DCFFB82BE2B10500538E1A /* RecycleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				31DCFFB92BE2B10500538E1A /* RecycleUITests.swift */,
+				31DCFFBB2BE2B10500538E1A /* RecycleUITestsLaunchTests.swift */,
+			);
+			path = RecycleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31DCFF9A2BE2B10000538E1A /* Recycle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31DCFFBF2BE2B10500538E1A /* Build configuration list for PBXNativeTarget "Recycle" */;
+			buildPhases = (
+				31DCFF972BE2B10000538E1A /* Sources */,
+				31DCFF982BE2B10000538E1A /* Frameworks */,
+				31DCFF992BE2B10000538E1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Recycle;
+			productName = Recycle;
+			productReference = 31DCFF9B2BE2B10000538E1A /* Recycle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31DCFFAA2BE2B10400538E1A /* RecycleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31DCFFC22BE2B10500538E1A /* Build configuration list for PBXNativeTarget "RecycleTests" */;
+			buildPhases = (
+				31DCFFA72BE2B10400538E1A /* Sources */,
+				31DCFFA82BE2B10400538E1A /* Frameworks */,
+				31DCFFA92BE2B10400538E1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31DCFFAD2BE2B10400538E1A /* PBXTargetDependency */,
+			);
+			name = RecycleTests;
+			productName = RecycleTests;
+			productReference = 31DCFFAB2BE2B10400538E1A /* RecycleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31DCFFB42BE2B10500538E1A /* RecycleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31DCFFC52BE2B10500538E1A /* Build configuration list for PBXNativeTarget "RecycleUITests" */;
+			buildPhases = (
+				31DCFFB12BE2B10500538E1A /* Sources */,
+				31DCFFB22BE2B10500538E1A /* Frameworks */,
+				31DCFFB32BE2B10500538E1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31DCFFB72BE2B10500538E1A /* PBXTargetDependency */,
+			);
+			name = RecycleUITests;
+			productName = RecycleUITests;
+			productReference = 31DCFFB52BE2B10500538E1A /* RecycleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31DCFF932BE2B10000538E1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					31DCFF9A2BE2B10000538E1A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					31DCFFAA2BE2B10400538E1A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 31DCFF9A2BE2B10000538E1A;
+					};
+					31DCFFB42BE2B10500538E1A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 31DCFF9A2BE2B10000538E1A;
+					};
+				};
+			};
+			buildConfigurationList = 31DCFF962BE2B10000538E1A /* Build configuration list for PBXProject "Recycle" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31DCFF922BE2B10000538E1A;
+			productRefGroup = 31DCFF9C2BE2B10000538E1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31DCFF9A2BE2B10000538E1A /* Recycle */,
+				31DCFFAA2BE2B10400538E1A /* RecycleTests */,
+				31DCFFB42BE2B10500538E1A /* RecycleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31DCFF992BE2B10000538E1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31DCFFA62BE2B10400538E1A /* Preview Assets.xcassets in Resources */,
+				31DCFFA32BE2B10400538E1A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DCFFA92BE2B10400538E1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DCFFB32BE2B10500538E1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31DCFF972BE2B10000538E1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31DCFFA12BE2B10000538E1A /* RecycleView.swift in Sources */,
+				31094AC82BE2CB4200756BFE /* RewardView.swift in Sources */,
+				31DCFF9F2BE2B10000538E1A /* RecycleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DCFFA72BE2B10400538E1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31DCFFB02BE2B10400538E1A /* RecycleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DCFFB12BE2B10500538E1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31DCFFBC2BE2B10500538E1A /* RecycleUITestsLaunchTests.swift in Sources */,
+				31DCFFBA2BE2B10500538E1A /* RecycleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31DCFFAD2BE2B10400538E1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31DCFF9A2BE2B10000538E1A /* Recycle */;
+			targetProxy = 31DCFFAC2BE2B10400538E1A /* PBXContainerItemProxy */;
+		};
+		31DCFFB72BE2B10500538E1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31DCFF9A2BE2B10000538E1A /* Recycle */;
+			targetProxy = 31DCFFB62BE2B10500538E1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		31DCFFBD2BE2B10500538E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31DCFFBE2BE2B10500538E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31DCFFC02BE2B10500538E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Recycle/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Shatha.Recycle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31DCFFC12BE2B10500538E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Recycle/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Shatha.Recycle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		31DCFFC32BE2B10500538E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Shatha.RecycleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Recycle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Recycle";
+			};
+			name = Debug;
+		};
+		31DCFFC42BE2B10500538E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Shatha.RecycleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Recycle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Recycle";
+			};
+			name = Release;
+		};
+		31DCFFC62BE2B10500538E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Shatha.RecycleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Recycle;
+			};
+			name = Debug;
+		};
+		31DCFFC72BE2B10500538E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Shatha.RecycleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Recycle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31DCFF962BE2B10000538E1A /* Build configuration list for PBXProject "Recycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31DCFFBD2BE2B10500538E1A /* Debug */,
+				31DCFFBE2BE2B10500538E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31DCFFBF2BE2B10500538E1A /* Build configuration list for PBXNativeTarget "Recycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31DCFFC02BE2B10500538E1A /* Debug */,
+				31DCFFC12BE2B10500538E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31DCFFC22BE2B10500538E1A /* Build configuration list for PBXNativeTarget "RecycleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31DCFFC32BE2B10500538E1A /* Debug */,
+				31DCFFC42BE2B10500538E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31DCFFC52BE2B10500538E1A /* Build configuration list for PBXNativeTarget "RecycleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31DCFFC62BE2B10500538E1A /* Debug */,
+				31DCFFC72BE2B10500538E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31DCFF932BE2B10000538E1A /* Project object */;
+}
